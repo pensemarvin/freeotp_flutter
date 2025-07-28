@@ -1,4 +1,4 @@
-# FreeOTP Clone
+# FreeOTP Flutter
 
 Un clone de l'application FreeOTP développé avec Flutter. Cette application permet de générer des codes d'authentification à deux facteurs (2FA) en utilisant les protocoles TOTP et HOTP.
 
