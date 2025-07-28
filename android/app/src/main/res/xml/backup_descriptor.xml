@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Sauvegarder les préférences partagées -->
+    <include domain="sharedpref" path="."/>
+    
+    <!-- Exclure le dossier de cache -->
+    <exclude domain="sharedpref" path="device.xml"/>
+    
+    <!-- Sauvegarder les fichiers dans le dossier files/ -->
+    <include domain="file" path="."/>
+    
+    <!-- Exclure le dossier de cache -->
+    <exclude domain="file" path="cache"/>
+    
+    <!-- Sauvegarder la base de données -->
+    <include domain="database" path="."/>
+    
+    <!-- Exclure les fichiers temporaires -->
+    <exclude domain="database" path="journal"/>
+    <exclude domain="database" path="*.lock"/>
+    <exclude domain="database" path="*.corrupt"/>
+    
+    <!-- Configuration pour FlutterSecureStorage -->
+    <include domain="sharedpref" path="FlutterSecureStorage/"/>
+</full-backup-content>
