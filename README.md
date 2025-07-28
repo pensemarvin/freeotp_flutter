@@ -28,8 +28,8 @@ Un clone de l'application FreeOTP développé avec Flutter. Cette application pe
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/freeotp-clone.git
-   cd freeotp-clone
+   git clone https://github.com/votre-utilisateur/freeotp-flutter.git
+   cd freeotp-flutter
    ```
 
 2. Installez les dépendances :
